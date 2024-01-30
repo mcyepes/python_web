@@ -2,7 +2,7 @@ import sys
 
 def get_pairs(list_,n):
     sorted_list = sorted(list_)
-    reversed_list = list_.reverse())
+    reversed_list =sorted(list_,reverse=True)
     valid_pairs = set()
     for a in sorted_list:
         for b in reversed_list:
